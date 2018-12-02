@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/opt/apps/software/Core/xalt/0.5.4/libexec/xalt_run_submission.py", line 34, in <module>
+    from xalt_transmission_factory import XALT_transmission_factory
+  File "/opt/apps/software/Core/xalt/0.5.4/libexec/xalt_transmission_factory.py", line 25, in <module>
+    from XALTdb      import XALTdb
+  File "/opt/apps/software/Core/xalt/0.5.4/libexec/XALTdb.py", line 81
+    except ConfigParser.NoOptionError, err:
+                                     ^
+SyntaxError: invalid syntax
+251833
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: *** JOB 6295456 ON bc8u7n6 CANCELLED AT 2018-11-24T09:59:58 ***
+slurmstepd: *** STEP 6295456.0 ON bc8u7n6 CANCELLED AT 2018-11-24T09:59:58 ***

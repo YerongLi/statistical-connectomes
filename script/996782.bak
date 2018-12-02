@@ -1,0 +1,5 @@
+#!/bin/bash
+#SBATCH --job-name=996782
+#SBATCH --mem-per-cpu=20000m
+#SBATCH --time=1:00:00
+srun /opt/apps/software/Core/Anaconda3/5.0.0/bin/python ../src/tracking.py /scratch/yl148/data/996782

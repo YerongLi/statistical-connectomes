@@ -1,0 +1,11 @@
+#!/bin/bash
+#SBATCH --job-name=down1
+#SBATCH --time=2:00:00
+start=100
+
+SUBJECTS=$(cat subjects1.txt)
+arr=($SUBJECTS)
+
+for SUBJECT in ${arr[@]:$start:100}; do 
+  /opt/apps/software/Core/Anaconda3/5.0.0/bin/python ../download_HCP_1200.py --subject=$SUBJECT --out_dir=/scratch/yl148
+ done;

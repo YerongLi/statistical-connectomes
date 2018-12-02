@@ -1,0 +1,11 @@
+sbatch ../utils/download0.jb
+sbatch ../utils/download1.jb
+sbatch ../utils/download2.jb
+sbatch ../utils/download3.jb
+sbatch ../utils/download4.jb
+sbatch ../utils/download5.jb
+sbatch ../utils/download6.jb
+sbatch ../utils/download7.jb
+sbatch ../utils/download8.jb
+sbatch ../utils/download9.jb
+sbatch ../utils/download10.jb

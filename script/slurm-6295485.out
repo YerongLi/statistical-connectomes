@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/opt/apps/software/Core/xalt/0.5.4/libexec/xalt_run_submission.py", line 34, in <module>
+    from xalt_transmission_factory import XALT_transmission_factory
+  File "/opt/apps/software/Core/xalt/0.5.4/libexec/xalt_transmission_factory.py", line 25, in <module>
+    from XALTdb      import XALTdb
+  File "/opt/apps/software/Core/xalt/0.5.4/libexec/XALTdb.py", line 81
+    except ConfigParser.NoOptionError, err:
+                                     ^
+SyntaxError: invalid syntax
+700634
+Traceback (most recent call last):
+  File "../src/tracking.py", line 58, in <module>
+    img, gtab = read_data(diffusion_directory)
+  File "/home/yl148/meng/src/utils/load.py", line 25, in read_data
+    img = nib.load(fraw)
+  File "/home/yl148/.local/lib/python3.6/site-packages/nibabel/loadsave.py", line 44, in load
+    raise ImageFileError("Empty file: '%s'" % filename)
+nibabel.filebasedimages.ImageFileError: Empty file: '/scratch/yl148/data/700634/T1w/Diffusion/data.nii.gz'
+srun: error: bc6u27n2: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/opt/apps/software/Core/xalt/0.5.4/libexec/xalt_run_submission.py", line 34, in <module>
+    from xalt_transmission_factory import XALT_transmission_factory
+  File "/opt/apps/software/Core/xalt/0.5.4/libexec/xalt_transmission_factory.py", line 25, in <module>
+    from XALTdb      import XALTdb
+  File "/opt/apps/software/Core/xalt/0.5.4/libexec/XALTdb.py", line 81
+    except ConfigParser.NoOptionError, err:
+                                     ^
+SyntaxError: invalid syntax
